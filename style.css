@@ -1,0 +1,235 @@
+/* Webkit */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c42212;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #eee;
+    border-radius: 5px;
+    box-shadow: inset 0 0 5px #000000;
+}
+/* Akhir Webkit */
+
+.navbar {
+    background-color: transparent !important;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar.scrolled {
+    background-color: #c42212 !important;
+}
+
+.navbar-brand {
+    color: #c42212;
+}
+
+.navbar-toggler.collapsed,
+.navbar-toggler {
+    background-color: transparent;
+    color: transparent;
+}
+
+span.navbar-toggler-icon {
+    background-image: url(../img/icon/menu.png);
+    color: white;
+}
+
+.navbar.scrolled .navbar-brand,
+.navbar.scrolled .navbar-nav a {
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: #c42212;
+}
+
+.navbar ul {
+    text-align: center;
+}
+
+.navbar-nav a {
+    color: #c42212;
+    border-radius: 20px;
+}
+
+.navbar-nav a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: white;
+}
+
+.navbar-brand img {
+    padding-right: 6px;
+}
+
+.jumbotron {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    color: white;
+    text-shadow: 1px 1px #ddd;
+    background-image: url(../img/bg2.JPG);
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.jumbotron h5 {
+    font-style: italic;
+    margin-left: 10px;
+}
+
+.jumbotron hr {
+    opacity: 1;
+    width: 310px;
+    height: 2px;
+}
+
+.jumbotron p {
+    margin: 0px 0px 2px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.jumbotron img {
+    margin-top: 60px;
+    width: 150px;
+    height: 150px;
+}
+
+section hr {
+    opacity: 1;
+    width: 310px;
+    height: 2px;
+}
+
+.layanan {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.layanan h1 {
+    font-weight: 800;
+    font-size: 42px;
+    color: #c42212;
+}
+
+.layanan .btn {
+    color: #fff;
+    background: #c42212;
+}
+
+.layanan .btn:hover {
+    background: #2b75ff;
+}
+
+.layanan .card {
+    box-shadow: 0 0 7px #ddd;
+}
+
+.layanan .card img {
+    width: 128px;
+    margin: 12px;
+}
+
+.about {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    color: white;
+    font-weight: bold;
+    background-image: url(../img/bg2.JPG);
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.about img {
+    margin-top: 0;
+    width: 400px;
+    height: 300px;
+}
+
+
+.about hr {
+    width: 120px;
+    color: white;
+    height: 2px;
+}
+
+.contact {
+    padding-top: 4rem;
+}
+
+.contact h1 {
+    font-weight: 800;
+    font-size: 42px;
+    color: #c42212;
+}
+
+.container {
+    overflow: hidden;
+}
+
+.control-form {
+    position: relative;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+.control-form label {
+    font-weight: bold;
+}
+
+.control-form i {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    visibility: hidden;
+}
+
+.control-form small {
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.control-form.success input,
+.control-form.success textarea {
+    border-color: #2ecc71;
+}
+
+.control-form.error input,
+.control-form.error textarea {
+    border-color: #e74c3c;
+}
+
+.control-form.success i.bi-check-circle-fill {
+    color: #2ecc71;
+    visibility: visible;
+}
+
+.control-form.error i.bi-exclamation-circle-fill {
+    color: #e74c3c;
+    visibility: visible;
+}
+
+.control-form.error small {
+    color: #e74c3c;
+    visibility: visible;
+}
+
+
+@media (max-width: 768px) {
+    .jumbotron .col-md-4 {
+        content-visibility: hidden;
+    }
+    .about .col-md-4 {
+        content-visibility: hidden;
+    }
+}
