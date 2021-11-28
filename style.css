@@ -125,7 +125,7 @@ section hr {
 }
 
 .layanan .btn:hover {
-    background: #2b75ff;
+    background: #13539e;
 }
 
 .layanan .card {
@@ -142,7 +142,7 @@ section hr {
     padding-bottom: 10rem;
     color: white;
     font-weight: bold;
-    background-image: url(../img/bg2.JPG);
+    background-image: url(img/bg2.JPG);
     background-attachment: fixed;
     background-size: cover;
     overflow: hidden;
@@ -169,6 +169,16 @@ section hr {
     font-weight: 800;
     font-size: 42px;
     color: #c42212;
+}
+
+.contact .btn {
+    width: 100%;
+    background: #c42212;
+    color: white;
+}
+
+.contact .btn:hover {
+    background: #13539e;
 }
 
 .container {
