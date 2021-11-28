@@ -36,7 +36,7 @@
 }
 
 span.navbar-toggler-icon {
-    background-image: url(../img/icon/menu.png);
+    background-image: url(img/icon/menu.png);
     color: white;
 }
 
@@ -72,7 +72,7 @@ span.navbar-toggler-icon {
     padding-bottom: 10rem;
     color: white;
     text-shadow: 1px 1px #ddd;
-    background-image: url(../img/bg2.JPG);
+    background-image: url(img/bg2.JPG);
     background-attachment: fixed;
     background-size: cover;
     overflow: hidden;
