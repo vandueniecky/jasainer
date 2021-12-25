@@ -170,22 +170,37 @@ section hr {
     color: #c42212;
 }
 
-.layanan .btn {
-    color: #fff;
-    background: #c42212;
+.card .btn {
+    color: #000000;
+    background: #ffffff;
+    opacity: 0;
+    transform: translate3d(0, 0, 100px);
+    transition: 0.5s;
 }
 
-.layanan .btn:hover {
-    background: #13539e;
+.card .btn:hover {
+    background: #ffffff;
 }
 
-.layanan .card {
+.card:hover .btn {
+    opacity: 1;
+}
+
+.card {
+    background: linear-gradient(-45deg, #e74c3c, #c42212) !important;
+    border: 2px 5px 1px;
+    color: #ffffff;
     box-shadow: 0 0 7px #ddd;
 }
 
-.layanan .card img {
+.card-body {
+    transform-style: preserve-3d;
+}
+
+.card img {
     width: 128px;
     margin: 12px;
+    transform: translate3d(0, 0, 60px);
 }
 
 .about {

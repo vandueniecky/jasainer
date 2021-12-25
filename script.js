@@ -142,8 +142,16 @@ forms.addEventListener('keyup', (e) => {
 
 });
 
-// const select = document.getElementById('select')
+// Fake Loader JS
+$(document).ready(function () {
+    $.fakeLoader({
+        bgColor: '#c42212',
+        spinner:"spinner2"
+    });
+});
 
-// select.addEventListener
-
-// const selectValue = select.value.trim();
+// tilt JS
+VanillaTilt.init(document.querySelectorAll(".card"), {
+    max: 35,
+    speed: 300,
+});

@@ -10,8 +10,8 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
 
-    <!-- AOS (Animasi On Scroll) -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Fake Loader CSS -->
+    <link rel="stylesheet" href="css/fakeLoader.css">
 
     <!-- Link Lokal Here -->
     <link rel="shortcut icon" href="favcion.ico" type="image/x-icon">
@@ -20,6 +20,9 @@
     <title>Jasainer</title>
 </head>
 <body>
+
+<div class="fakeLoader"></div>
+
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-default fixed-top">
     <div class="container">
@@ -78,8 +81,8 @@
         </div>
         <div class="row">
             <div class="col-md-4 mb-4">
-                <div class="card" data-aos="fade-down-right" data-aos-delay="400">
-                    <div class="card-body">
+                <div class="card" data-tilt>
+                    <div class="card-body" data-tilt>
                         <img src="layanan/jasainerlogo.png" class="img-card-top" alt="jasainerLogo">
                         <h5 class="card-title">Jasainer Logo</h5>
                         <p class="card-text">Jasainer Logo untuk kebutuhan memulai usaha, pemasaran produk, atau logo perusahaan.</p>
@@ -88,8 +91,8 @@
                   </div>
             </div>
             <div class="col-md-4 mb-4">
-                <div class="card" data-aos="fade-down">
-                    <div class="card-body">
+                <div class="card" data-tilt>
+                    <div class="card-body" data-tilt>
                         <img src="layanan/jasainerbanner.png" class="img-card-top" alt="jasainerbanner">
                         <h5 class="card-title">Jasainer Banner</h5>
                         <p class="card-text">Jasainer Banner acara, usaha, iklan, parpol untuk menyampaikan informasi umum.</p>
@@ -98,8 +101,8 @@
                   </div>
             </div>
             <div class="col-md-4 mb-4">
-                <div class="card" data-aos="fade-down-left" data-aos-delay="400">
-                    <div class="card-body">
+                <div class="card" data-tilt>
+                    <div class="card-body" data-tilt>
                         <img src="layanan/jasainerpackaging.png" class="img-card-top" alt="jasainerpackaging">
                         <h5 class="card-title">Jasainer Packaging</h5>
                         <p class="card-text">Jasainer Packaging box atau label untuk menyampaikan informasi produk secara lebih lanjut.</p>
@@ -108,8 +111,8 @@
                   </div>
             </div>
             <div class="col-md-4 mb-4">
-                <div class="card" data-aos="fade-up-right" data-aos-delay="400">
-                    <div class="card-body">
+                <div class="card" data-tilt>
+                    <div class="card-body" data-tilt>
                         <img src="layanan/jasainerbrochure.png" class="img-card-top" alt="jasainerbrochure">
                         <h5 class="card-title">Jasainer Brochure</h5>
                         <p class="card-text">Jasainer Brochure untuk kebutuhan pemasaran produk dalam berbagai ukuran.</p>
@@ -118,8 +121,8 @@
                   </div>
             </div>
             <div class="col-md-4 mb-4">
-                <div class="card" data-aos="fade-up">
-                    <div class="card-body">
+                <div class="card" data-tilt>
+                    <div class="card-body" data-tilt>
                         <img src="layanan/jasainerrebranding.png" class="img-card-top" alt="jasainerbranding">
                         <h5 class="card-title">Jasainer Rebranding</h5>
                         <p class="card-text">Jasainer Reranding untuk mendukung perubahan merek anda lebih menarik.</p>
@@ -128,8 +131,8 @@
                   </div>
             </div>
             <div class="col-md-4 mb-4">
-                <div class="card" data-aos="fade-up-left" data-aos-delay="400">
-                    <div class="card-body">
+                <div class="card" data-tilt>
+                    <div class="card-body" data-tilt>
                         <img src="layanan/jasainerlainnya.png" class="img-card-top" alt="jasainerlainnya">
                         <h5 class="card-title">Jasainer Lainnya</h5>
                         <p class="card-text">Jasainer Lainnya untuk kebutuhan non-Produk. Edit foto, Membuat CV dan lain-lain. </p>
@@ -178,7 +181,7 @@
                     <div class="alert alert-success alert-dismissible fade show my-alert d-none" role="alert">
                         <strong>Terima Kasi! <i class="bi bi-send-check-fill"></i></strong> Kami akan segera menghubungi anda lewat email. Perhatian!! : "Jika pesan anda kosong tidak kami respond."
                         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
-                            <a href="jasainer.html"></a>
+                            <a href="#jasainer"></a>
                         </button>
                     </div>
                     <form class="form" id="form" name="data-from-website">
@@ -244,14 +247,10 @@
 	<script src="js/jquery-3.6.0.min.js"></script>
 	<!-- bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <!-- AOS js -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <!-- Plugin -->
-    <script>
-      AOS.init({
-          once: true, 
-      });
-    </script>
+    <!-- FakeLoader js -->
+    <script src="js/fakeLoader.js"></script>
+    <!-- Vanilla Tilt js -->
+    <script src="js/vanilla-tilt.min.js"></script>
 	<!-- my js -->
 	<script src="script.js"></script>
     
