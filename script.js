@@ -38,7 +38,7 @@ $('button.navbar-toggler').click(function() {
 
 // Contact from websit to Google Sheet
 const scriptURL = 'https://script.google.com/macros/s/AKfycbxTqpw3M4cOXIQHZbfSVG66cSSS14P_2O0yRL6f6JsTHQj1oc1mpgDleZbB3XjdtoHoEw/exec'
-const form = document.forms['pemesanan-desain'];
+const form = document.forms['submit-form-to-google-sheets'];
 const btnKirim = document.querySelector('.btn-kirim');
 const btnLoading = document.querySelector('.btn-loading');
 const myAlert = document.querySelector('.my-alert');
