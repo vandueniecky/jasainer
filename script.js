@@ -37,8 +37,8 @@ $('button.navbar-toggler').click(function() {
 });
 
 // Contact from websit to Google Sheet
-const scriptURL = 'https://script.google.com/macros/s/AKfycbxp-zzbBT4jhgweKSLb8CPadWk-wVvBPcE4uYEpsRF-jASQY8Z80yCnLVUB4G_HaLeosQ/exec'
-const form = document.forms['data-from-website'];
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxTqpw3M4cOXIQHZbfSVG66cSSS14P_2O0yRL6f6JsTHQj1oc1mpgDleZbB3XjdtoHoEw/exec'
+const form = document.forms['pemesanan-desain'];
 const btnKirim = document.querySelector('.btn-kirim');
 const btnLoading = document.querySelector('.btn-loading');
 const myAlert = document.querySelector('.my-alert');
@@ -47,6 +47,7 @@ const myAlert = document.querySelector('.my-alert');
 const forms = document.getElementById('form');
 const username = document.getElementById('username');
 const email = document.getElementById('email');
+const subjek = document.getElementById('subjek');
 const pesan = document.getElementById('pesan');
 
 form.addEventListener('submit', (e) => {
