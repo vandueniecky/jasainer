@@ -52,7 +52,6 @@ const pesan = document.getElementById('pesan');
 
 form.addEventListener('submit', (e) => {
     e.preventDefault();
-
     // ketika tombol sumbit diklik
     // tampilkan tombol loading dan hilangkan tombol kirim
     btnLoading.classList.toggle('d-none');
@@ -72,7 +71,7 @@ form.addEventListener('submit', (e) => {
          .catch(error => console.error('Error!', error.message))
 });
 
-forms.addEventListener('keyup', (e) => {
+form.addEventListener('keyup', (e) => {
 
   checkInputs();
   function checkInputs() {
