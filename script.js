@@ -155,3 +155,7 @@ VanillaTilt.init(document.querySelectorAll(".card"), {
     max: 35,
     speed: 300,
 });
+
+function linkweb(){
+    window.location.herf = "https://jasainer.netlify.app/#jasainer";
+}
